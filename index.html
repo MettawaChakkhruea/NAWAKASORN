@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAWAKASORN</title>
+    <link rel="icon" href="./img/2.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="bg-soft" aria-hidden="true"></div>
+
+    <header class="site-header" data-sticky>
+      <div class="container header-inner">
+        <a class="logo" href="./index.html" aria-label="Novolife หน้าแรก">
+          <img src="./img/asd.png" alt="" height="90px">
+        </a>
+        <button class="menu-btn" type="button" aria-label="เปิดเมนู" aria-expanded="false" data-menu-btn>
+          <span class="menu-bars" aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-nav" aria-label="เมนูหลัก" data-menu>
+          <a class="site-link is-active" href="./index.html">หน้าแรก</a>
+          <a class="site-link" href="./about.html">เกี่ยวกับเรา</a>
+          <a class="site-link" href="./products.html">ผลิตภัณฑ์</a>
+          <a class="site-link" href="./contact.html">ติดต่อเรา</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div
+          class="bg fill bg-fill"
+          data-hero-bg
+          data-hero-bg-interval="5500"
+          aria-hidden="true">
+          <div class="hero-bg-slide">
+            <img src="./img/342.webp" alt="" width="1024" height="572" decoding="async" loading="lazy" />
+          </div>
+          <div class="hero-bg-slide is-active">
+            <img src="./img/main1.webp" alt="" width="1024" height="572" decoding="async" fetchpriority="high"/>
+          </div>
+          <div class="hero-bg-slide">
+            <img src="./img/main2.webp" alt="" width="1024" height="572" decoding="async" loading="lazy" />
+          </div>
+          <div class="hero-bg-slide">
+            <img src="./img/main3.webp" alt="" width="1024" height="572" decoding="async" loading="lazy" />
+          </div>
+          <div class="hero-bg-slide">
+            <img src="./img/main4.webp" alt="" width="1024" height="572" decoding="async" loading="lazy" />
+          </div>
+          <div class="hero-bg-slide">
+            <img src="./img/main5.webp" alt="" width="1024" height="572" decoding="async" loading="lazy" />
+          </div>
+          <div class="hero-bg-slide">
+            <img src="./img/main6.webp" alt="" width="1024" height="572" decoding="async" loading="lazy" />
+          </div>
+        </div>
+        <div class="hero-bg-overlay" aria-hidden="true"></div>
+        <button type="button" class="hero-bg-nav hero-bg-prev" data-hero-bg-prev aria-label="ภาพก่อนหน้า">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+          </svg>
+        </button>
+        <button type="button" class="hero-bg-nav hero-bg-next" data-hero-bg-next aria-label="ภาพถัดไป">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+          </svg>
+        </button>
+        <div class="hero-bg-dots" data-hero-bg-dots role="tablist" aria-label="เลือกภาพสไลด์"></div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">สินค้าแนะนำ</h2>
+            <p class="section-sub">ตัวอย่างการ์ดสินค้าแบบเรียบหรู คล้ายหน้า “สินค้าแนะนำ”</p>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <a href="https://s.shopee.co.th/AADiD9Nx1U">
+              <div class="card-media">
+                <img src="./img/1.jpg" alt="ยาหม่องสมุนไพร" loading="lazy" />
+              </div>
+              <div class="card-body">
+
+                <h3 class="card-title">กลิ่นฮีลใจ๋สิริลำใย</h3>
+                <p class="card-desc">(ลำไยและดอกปีบ)
+                  <br>ช่วยบรรเทาอาการหอบหืด และช่วยบำรุง
+                  ปอด</p>
+                </a>
+                <a class="card-link" href="./products.html">ดูรายละเอียด</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <a href="https://s.shopee.co.th/AADiD9Nx1U">
+              <div class="card-media">
+                <img src="./img/2.jpg" alt="ยาดมสมุนไพร" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">กลิ่นหอมคำจันทร์</h3>
+                <p class="card-desc">(ส้มและไม้แก่นจันทร์)
+                  <br>แก้ลมวิงเวียน กระตุ้นการไหลเวียนของเลือดลม</p>
+                  </a>
+                <a class="card-link" href="./products.html">ดูรายละเอียด</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <a href="https://s.shopee.co.th/AADiD9Nx1U">
+              <div class="card-media">
+                <img src="./img/3.jpg" alt="โรลออนสารส้ม" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">กลิ่นบุปผาเวหา</h3>
+                <p class="card-desc">(ดอกไม้9ชนิด)
+                  <br>หอมเย็นชวนคลายเครียด คลายวิตกกังวล บำรุงหัวใจให้ชุ่มชื่น</p>
+                </a>
+                <a class="card-link" href="./products.html">ดูรายละเอียด</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="section-foot">
+            <a class="btn btn-secondary" href="./products.html">ดูสินค้าทั้งหมด (6 รายการ)</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <div class="footer-brand">NAWAKASORN</div>          </div>
+          <div class="footer-links">
+            <a href="./products.html">ผลิตภัณฑ์</a>
+            <a href="./contact.html">ติดต่อเรา</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
